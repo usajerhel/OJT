@@ -1,0 +1,54 @@
+.bg-custom {
+    background-color:red;
+ }
+ 
+ .text-custom {
+    color: #000000;
+    border: 5px solid #0e6d50 ;
+    border-radius: 10em;    
+ }
+
+ #coloring {
+
+   background-image: linear-gradient(green, red);
+ }
+ 
+ .text-brown {
+    color: #4e1f14;
+ }
+ 
+ a.nav-link {
+    color: #4e1f14;
+    font-weight: 600;
+ }
+ 
+ #navbar-icons span {
+    margin-left: 1em;
+    margin-right: 1em;
+ }
+ 
+ .background-image {
+    padding-top: 5em;
+    height: 700px;
+    background-image: url("../img/aboutbanner-1647596418201.webp");
+    background-size: cover;
+    
+ }
+ 
+ #schools{
+    padding-top: 2em;
+    padding-bottom: 7em;
+    
+    
+ }
+ 
+ #icons img {
+    height: 100px;
+ }
+ 
+ #about {
+    height: 400px;
+    margin-top: 10px;
+    padding-left: 2em;
+
+ }
