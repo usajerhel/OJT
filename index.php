@@ -118,7 +118,7 @@
       </div>
    </div>
    <div class="container-fluid text-white" id="coloring">
-      <h1>Contact Me uwu</h1>
+      <h1>Contact Me</h1>
       <form action="insert.php" method="POST">
          <div class="modal-body">
             <div class="form-group">

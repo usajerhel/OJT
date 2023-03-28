@@ -42,7 +42,11 @@
                         <td><?php echo $rows['email']; ?></td>
                         <td><?php echo $rows['comment']; ?></td>
                         <td><a href ="update.php?id=<?=$rows['id']?>"
-                                     class = "btn btn-success">Update</a></td> 
+                                     class = "btn btn-success">Update</a>
+
+                                     <a href ="./crud/delete.php?id=<?=$rows['id']?>"
+                                     class = "btn btn-danger">Delete</a>
+                        </td> 
                     </tr>
                     <?php } ?>
                 </tbody>
