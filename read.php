@@ -1,4 +1,4 @@
-<?php include "./read/read.php"; ?>
+<?php include "./crud/read.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAGES FOR SUBMITTED VALUES</title>
+    <title>PAGES FOR SUBMITTED COMMENTS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
    <link rel="stylesheet" href="./styles/style.css">
@@ -27,6 +27,7 @@
                         <th scope = "col">Email</th>
                         <th scope = "col">Name</th>
                         <th scope = "col">Message</th>
+                        <th scope = "col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,6 +41,8 @@
                         <td><?=$rows['name'];?></td>
                         <td><?php echo $rows['email']; ?></td>
                         <td><?php echo $rows['comment']; ?></td>
+                        <td><a href ="update.php?id=<?=$rows['id']?>"
+                                     class = "btn btn-success">Update</a></td> 
                     </tr>
                     <?php } ?>
                 </tbody>

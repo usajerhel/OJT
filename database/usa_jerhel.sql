@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2023 at 08:43 AM
+-- Generation Time: Mar 28, 2023 at 05:45 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `comments`
+-- Database: `usa_jerhel`
 --
 
 -- --------------------------------------------------------
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `contents` (
   `id` int(11) NOT NULL,
   `email` varchar(40) NOT NULL,
-  `name` text NOT NULL,
+  `name` longtext NOT NULL,
   `comment` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -39,7 +39,7 @@ CREATE TABLE `contents` (
 --
 
 INSERT INTO `contents` (`id`, `email`, `name`, `comment`) VALUES
-(1, 'example1@gmail.com', 'example1', ' example1asd');
+(1, 'usa_example1@gmail.com', 'USA Example', ' usa usa usa');
 
 --
 -- Indexes for dumped tables

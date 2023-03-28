@@ -1,6 +1,6 @@
 <?php
 $connection = mysqli_connect("localhost","root","");
-$db = mysqli_select_db($connection, 'comments');
+$db = mysqli_select_db($connection, 'usa_jerhel');
 
 
 if(isset($_POST['submit']))
