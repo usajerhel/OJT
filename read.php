@@ -24,8 +24,13 @@
                 <thead>
                     <tr>
                         <th scope = "col">#</th>
+<<<<<<< HEAD
                         <th scope = "col">Name</th>
                         <th scope = "col">Email</th>
+=======
+                        <th scope = "col">Email</th>
+                        <th scope = "col">Name</th>
+>>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
                         <th scope = "col">Message</th>
                         <th scope = "col">Action</th>
                     </tr>
@@ -43,7 +48,12 @@
                         <td><?php echo $rows['comment']; ?></td>
                         <td><a href ="update.php?id=<?=$rows['id']?>"
                                      class = "btn btn-success">Update</a>
+<<<<<<< HEAD
                             <a href ="./crud/delete.php?id=<?=$rows['id']?>"
+=======
+
+                                     <a href ="./crud/delete.php?id=<?=$rows['id']?>"
+>>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
                                      class = "btn btn-danger">Delete</a>
                         </td> 
                     </tr>

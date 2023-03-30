@@ -1,7 +1,13 @@
 <?php 
 
+<<<<<<< HEAD
 if (isset($_GET['id'])) { 
         include "connect.php";
+=======
+if (isset($_GET['id'])) {
+        include "connect.php";
+
+>>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
         function validate($data){
             $data = trim($data);
             $data = stripslashes($data);
@@ -19,6 +25,7 @@ if (isset($_GET['id'])) {
         } else {
             header ("Location: read.php");
         }
+<<<<<<< HEAD
 
 
 }else if(isset($_POST['update'])){
@@ -54,3 +61,10 @@ if (isset($_GET['id'])) {
 }else {
     header ("Location: read.php");
 }
+=======
+}
+else {
+    header ("Location: read.php");
+}
+
+>>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
