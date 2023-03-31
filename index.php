@@ -17,12 +17,12 @@
       <span class="text-light text-uppercase fw-bold">Personal Website for DOST Presentation</span>
    </div>
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-         <div class="collapse navbar-collapse">
+      
+         <div class="collapse navbar-collapse" id ="nav">
             <div class="d-flex align-items-center mx-auto">
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="#">HOME</a>
+                     <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="#" id= "nave">HOME</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link fw-bold fs-4 text-center" aria-current="page" href="./read.php">FORM</a>
@@ -34,17 +34,17 @@
    </nav>
    <div id="about" class="bg-custom text-light">
       <div class="row py-3" style="height: 200px">
-         <div class="col">
-            <img src="./img/PROFILE.gif" class="mt-1 rounded-circle" alt="" height="365" width="450">
+         <div class="col-2 mx-5 px-1 bx-1 my-5 py-5 by-5">
+            <img src="./img/1X1.jpg" class="mt-1 rounded-circle" alt="" height="200" width="200">
          </div>
          <div class="col text-start">
-            <div class="fs-2 fw-bold mb-1">About Me!</div>
+            <div class="fs-2 fw-bold mb-1 my-3 py-3 by-3">About Me!</div>
             <p class="fs-5">Hi Guys, welcome to my portfolio website. My name is Jerhel Ramos, I am 22 years old, I am currently living in Cagbang, Oton, Iloilo. I am a currently a student of University of San Agustin taking a degree of Bachelor of Science in Information Technology. </p>
             <div class="fs-4 fw-bold ">My Motto</div>
             <p class="fs-5 fw-semibold"><i>It always seems impossible until it is done.</i></p>
          </div>
          <div class="col text-start fw-semibold">
-            <p class="fs-4 fw-bold mb-1">My Assets</p>
+            <p class="fs-4 fw-bold mb-1 my-2 py-2 by-2">My Assets</p>
             <p class="fs-5">No.1 Singing Voice HAHAHA</p>
             <img src="img/hi-hair-flip.gif" alt="a small singer hair flipping" height="120" width="120">
             <p class="fs-5">No.2 Eyes</p>
@@ -53,14 +53,14 @@
       </div>
    </div>
    <div class="text-center" id="schools">
-      <span class="text-custom fs-4 fw-bold px-3">EDUCATIONAL BACKGROUND</span>
-      <div class="mt-4">
+      <span class="text-custom fs-4 fw-bold px-3" id="educ">EDUCATIONAL BACKGROUND</span>
+      <div class="mt-4" >
          <div class="container">
             <div id="icons" class="row text-brown">
                <div class="col">
                   <img src="./img/ICES.png" alt="">
                   <div class="text-start text-center">
-                     <div class="fw-bold mt-2">Iloilo Central Elementary School</div>
+                     <div class="fs-6 fw-bold mt-2"id="sname">Iloilo Central Elementary School</div>
                      <span class="text-uppercase fw-semibold">Primary</span>
                      <p><i>2007 - 2013</i></p>
                   </div>
@@ -68,7 +68,7 @@
                <div class="col">
                   <img src="./img/MANDU.png" alt="">
                   <div class="text-start text-center">
-                     <div class="fw-bold mt-2">Mandurriao National High School</div>
+                     <div class="fs-6 fw-bold mt-2"id="sname">Mandurriao National High School</div>
                      <span class="text-uppercase fw-semibold">Secondary</span>
                      <p><i>2012 - 2016</i></p>
                   </div>
@@ -76,7 +76,7 @@
                <div class="col">
                   <img src="./img/MANDU.png" alt="">
                   <div class="text-start text-center">
-                     <div class="fw-bold mt-2">Mandurriao National High School</div>
+                     <div class="fs-6 fw-bold mt-2" id="sname">Mandurriao National High School</div>
                      <span= class="fw-semibold text-uppercase">SENIOR HIGH</span=>
                      <div>Academic Track – General Academic Strand (GAS)</div>
                      <p><i>2016 - 2018</i></p>
@@ -85,7 +85,7 @@
                <div class="col">
                   <img src="./img/UniversityofSanAgustin-150px.png" alt="">
                   <div class="text-start text-center">
-                     <div class="fw-bold mt-2">University of San Agustin</div>
+                     <div class="fs-6 fw-bold mt-2"id="sname">University of San Agustin</div>
                      <span class="fw-semibold text-uppercase">Tertiary</span>
                      <div>Bachelor of Science in Information Technology</div>
                      <p><i>2019 - PRESENT</i></p>
@@ -100,7 +100,7 @@
                <img src="./img/valorant.gif" class=alt="" height="300" width="300" "padding-left -5">
             </div>
             <div class="col-3 text-start">
-               <div class="fs-4 fw-bold mb-3">Playing Games</div>
+               <div class="fs-4 fw-bold mb-3"id="educ">Playing Games</div>
                <p>I like to play games to because I can relieve stress from studies and stress around you.
                   It gives me comfort and also give me some random friend that you can talk and play with.</p>
                <!--img src ="img/rage.gif" alt="a man playing computer" height="150" width="300"-->
@@ -109,7 +109,7 @@
                <img src="./img/tybw-yamamoto.gif" class=alt="" height="300" width="300" "padding-left -5">
             </div>
             <div class="col-3 text-start">
-               <div class="fs-4 fw-bold mb-3">Watching Anime</div>
+               <div class="fs-4 fw-bold mb-3"id="educ">Watching Anime</div>
                <p>I like to watch anime because I love Japan. Anime give you different plot everytime and it has a cool cgi for every anime that could get your attention.
                   It is also my stress reliever because it give my mind peace and clear my thoughts about bad things that happened today, tomorrow or yesterday.</p>
                <img src="img/watching anime.gif" alt="watching anime on tv" width="250" height="110">
@@ -117,8 +117,8 @@
          </div>
       </div>
    </div>
-   <div class="container-fluid text-white" id="coloring">
-      <h1>Contact Me</h1>
+   <div class="container-fluid text-white" id="coloring" >
+      <div class="fs-7 fw-bold"  id="educ">CONTACT ME</div>
       <form action="insert.php" method="POST">
          <div class="modal-body">
             <div class="form-group">
@@ -138,7 +138,7 @@
          <!--<button type="button" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedback"  style= "margin-bottom: 10px">
                Submit
             </button> -->
-         <button type="submit" class="btn btn-primary my-1">Submit</button>
+         <button type="submit" class="btn btn-primary my-1 fs-6 fw-bold " id ="educ">Submit</button>
       </form>
    </div>
    <!--<div class = "card-body">

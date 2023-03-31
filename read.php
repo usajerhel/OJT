@@ -15,24 +15,19 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <h4 class="display-4 text-center">READ</h4><hr>
-            <a href="index.php" class="back">BACK</a> 
+    <div class="container text-white">
+        <div class="box text-white">
+            <h4 class="display-4 text-center fw-bold" id="educ">READ</h4><hr>
+            <a href="index.php" class="fs-4 fw-bold back" id="educ">BACK</a> 
             <?php if (mysqli_num_rows($result)) { ?>
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope = "col">#</th>
-<<<<<<< HEAD
-                        <th scope = "col">Name</th>
-                        <th scope = "col">Email</th>
-=======
-                        <th scope = "col">Email</th>
-                        <th scope = "col">Name</th>
->>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
-                        <th scope = "col">Message</th>
-                        <th scope = "col">Action</th>
+                        <th scope = "col" class = "text-white" >#</th>
+                        <th scope = "col" class = "text-white">Name</th>
+                        <th scope = "col" class = "text-white">Email</th>
+                        <th scope = "col" class = "text-white">Message</th>
+                        <th scope = "col" class = "text-white">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,18 +37,13 @@
                     $i++;
                  ?>
                     <tr>
-                        <th scope="row"><?=$i?></th>
-                        <td><?=$rows['name'];?></td>
-                        <td><?php echo $rows['email']; ?></td>
-                        <td><?php echo $rows['comment']; ?></td>
+                        <th scope="row" class = "text-white"><?=$i?></th>
+                        <td class = "text-white"><?=$rows['name'];?></td>
+                        <td class = "text-white"><?php echo $rows['email']; ?></td>
+                        <td class = "text-white"><?php echo $rows['comment']; ?></td>
                         <td><a href ="update.php?id=<?=$rows['id']?>"
                                      class = "btn btn-success">Update</a>
-<<<<<<< HEAD
                             <a href ="./crud/delete.php?id=<?=$rows['id']?>"
-=======
-
-                                     <a href ="./crud/delete.php?id=<?=$rows['id']?>"
->>>>>>> f038fd7066f5aae4de8d5aa7d3f6989629e8fe68
                                      class = "btn btn-danger">Delete</a>
                         </td> 
                     </tr>
