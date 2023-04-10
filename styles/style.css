@@ -109,3 +109,36 @@ a.nav-link {
 .read{
    color: white;
  }
+ 
+.butts{
+   --gradiant: linear-gradient(
+       45deg,
+       #ff0000,
+       #ffff00,
+       #ff00f3,
+       #0033ff,
+       #ff00c4,
+       #ff0000
+   ); 
+   font-size: 3.7em;
+   padding: 20px;
+   background-image: var(--gradiant);
+   background-size: 300%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -o-background-clip: text;
+   -ms-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   -webkit-animation:  gradiant-animation 5s ease-in-out alternate infinite;
+   animation: gradiant-animation 5s ease-in-out alternate infinite;
+ }
+ @keyframes gradiant-animation {
+    0%{background-position: left;}
+    100%{background-position: right;}
+ }
+ @-webkit-keyframes gradiant-animation {
+    0%{background-position: left;}
+    00%{background-position: right;}
+ }
+

@@ -32,7 +32,7 @@
          </div>
       </div>
    </nav>
-   <div id="about" class="bg-custom text-light">
+   <div id="about" class="bg-custom text-light rainbow-row">
       <div class="row py-3" style="height: 200px">
          <div class="col-2 mx-5 px-1 bx-1 my-5 py-5 by-5">
             <img src="./img/1X1.jpg" class="mt-1 rounded-circle" alt="" height="200" width="200">
@@ -57,7 +57,7 @@
       <div class="mt-4" >
          <div class="container">
             <div id="icons" class="row text-brown">
-               <div class="col">
+               <div class="col" >
                   <img src="./img/ICES.png" alt="">
                   <div class="text-start text-center">
                      <div class="fs-6 fw-bold mt-2"id="sname">Iloilo Central Elementary School</div>
@@ -103,7 +103,6 @@
                <div class="fs-4 fw-bold mb-3"id="educ">Playing Games</div>
                <p>I like to play games to because I can relieve stress from studies and stress around you.
                   It gives me comfort and also give me some random friend that you can talk and play with.</p>
-               <!--img src ="img/rage.gif" alt="a man playing computer" height="150" width="300"-->
             </div>
             <div class="col-3 text-start">
                <img src="./img/tybw-yamamoto.gif" class=alt="" height="300" width="300" "padding-left -5">
@@ -112,7 +111,6 @@
                <div class="fs-4 fw-bold mb-3"id="educ">Watching Anime</div>
                <p>I like to watch anime because I love Japan. Anime give you different plot everytime and it has a cool cgi for every anime that could get your attention.
                   It is also my stress reliever because it give my mind peace and clear my thoughts about bad things that happened today, tomorrow or yesterday.</p>
-               <img src="img/watching anime.gif" alt="watching anime on tv" width="250" height="110">
             </div>
          </div>
       </div>
@@ -135,15 +133,9 @@
                <textarea type="form-text" name="comment" class="form-control" id="comment"> </textarea>
             </div>
          </div>
-         <!--<button type="button" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedback"  style= "margin-bottom: 10px">
-               Submit
-            </button> -->
-         <button type="submit" class="btn btn-primary my-1 fs-6 fw-bold " id ="educ">Submit</button>
+         <button type="submit" class="btn btn-primary my-1 fs-5 fw-bold px-1 py-1" id ="educ">Submit</button>
       </form>
    </div>
-   <!--<div class = "card-body">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#commentaddmodal"> COMMENT</button>
-            </div> -->
    </div>
    <div class="modal fade" id="feedback" tabindex="-1" aria-labelledby="feedbackLabel" aria-hidden="true">
       <div class="modal-dialog">

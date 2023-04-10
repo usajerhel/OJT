@@ -21,8 +21,6 @@ if (isset($_GET['id'])) {
     	header("Location: ./read.php");
     }
 
-
-
 }else if(isset($_POST['update'])){
     include "../connect.php";   
     function validate($data){
@@ -40,9 +38,9 @@ if (isset($_GET['id'])) {
     }else if (empty($email)){
         header("Location: ../update.php?id=$id&error=Enmail is required");
     } else {
-
+        
         $sql = "UPDATE contents
-        SET name= `$name`, email=`$email`
+        SET name= '$name', email='$email'
         WHERE id= '$id'";
         $result = mysqli_query($connection, $sql);
     if ($result){
@@ -51,10 +49,6 @@ if (isset($_GET['id'])) {
         header("Location: ../update.php?id=$id&error=unknown error occurred&$user_data");
      }
 }
-
-
-   // $id = validate($_GET['id']); $sql = "INSERT INTO contents(name, email) VALUE ('$name', '$email')"; $result = mysqli_query($connection, $sql);//
-
 }else {
     header ("Location: ./read.php");
 }

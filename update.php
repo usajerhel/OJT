@@ -15,23 +15,23 @@
 </head>
 <body>
 <div class="container-fluid text-black">
-      <div class= "text-center"><h1>UPDATE</h1></div> 
+      <div class= "text-center" id="educ"><h1>UPDATE</h1></div> 
       <form action="./crud/update.php" method="POST">
          <div class="modal-body">
-            <div class="form-group">
+            <div class="form-group text-white">
                <label> Email address </label>
                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" value="<?=$row['email']?>">
-               <div id="email" class="form-text text-white">We'll never share your email with anyone else.</div>
+               <div id="email" class="form-text text-white"></div>
             </div>
-            <div class="form-group mb-3">
+            <div class="form-group mb-3 text-white">
                <label> Name </label>
                <input type="form-text" name="name" class="form-control" id="name" value="<?=$row['name']?>">
             </div>
             <input type = "text" name = "id" value = <?=$row['id']?>" hidden>
          </div>
          
-         <button type="submit" name="update" class="btn btn-success my-1">Update</button>
-         <td><a href ="./read.php" class = "btn btn-info">BACK</a>
+         <button type="submit" name="update" class="btn btn-success my-1 py-1 px-1 fs-5 fw-bold" id="educ">Update</button>
+         <td><a href ="./read.php" class = "btn btn-danger fs-5 py-1 px-1 fw-bold" id="educ">Back</a>
       </form>
    </div>
    
