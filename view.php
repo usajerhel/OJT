@@ -19,7 +19,7 @@
             <div class="card text-bg-dark mb-3">
                 <div class="card-header bg-transparent border-light">
                     <h2 class="text-white">Details
-                        <a href="read.php" class="btn btn-danger float-end">BACK</a>
+                        <a href="read.php" class="btn btn-danger float-end">BACKE</a>
                     </h2>
                 </div>
                 <div class="card-body">
