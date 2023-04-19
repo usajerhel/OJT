@@ -41,6 +41,7 @@
                         <td class = "text-white"><?=$rows['name'];?></td>
                         <td class = "text-white"><?php echo $rows['email']; ?></td>
                         <td class = "text-white"><?php echo $rows['comment']; ?></td>
+<<<<<<< HEAD
                         <td><a href ="view.php?id=<?=$rows['id']?>"
                                      class = "btn btn-danger">View</a>
                             <a href ="update.php?id=<?=$rows['id']?>"
@@ -48,6 +49,12 @@
                             <a href ="./crud/delete.php?id=<?=$rows['id']?>"
                                      class = "btn btn-danger">Delete</a>
                             
+=======
+                        <td><a href ="update.php?id=<?=$rows['id']?>"
+                                     class = "btn btn-success">Update</a>
+                            <a href ="./crud/delete.php?id=<?=$rows['id']?>"
+                                     class = "btn btn-danger">Delete</a>
+>>>>>>> 19701a87380bafaf83083fff827c2d225685405b
                         </td> 
                     </tr>
                     <?php } ?>
