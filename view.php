@@ -1,4 +1,4 @@
-<?php include "update.php" ?>
+<?php include "./crud/update.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
@@ -18,8 +18,8 @@
         <div class="col-md-12">
             <div class="card text-bg-dark mb-3">
                 <div class="card-header bg-transparent border-light">
-                    <h2 class="text-white">Details
-                        <a href="read.php" class="btn btn-danger float-end">BACKE</a>
+                    <h2 class="my-1 fs-11 fw-bold px-1 py-1" id="educ" >Details
+                        <a href="read.php" class="float-end my-1 fs-2 fw-bold px-1 py-1" id="educ">Back</a>
                     </h2>
                 </div>
                 <div class="card-body">

@@ -31,6 +31,7 @@ if (isset($_GET['id'])) {
     }
     $name= validate($_POST['name']);
     $email= validate($_POST['email']);
+    $comment= validate($_POST['comment']);
     $id = validate($_POST['id']);
 
     if(empty($name)){
@@ -40,7 +41,7 @@ if (isset($_GET['id'])) {
     } else {
         
         $sql = "UPDATE contents
-        SET name= '$name', email='$email'
+        SET name= '$name', email='$email', comment ='$comment'
         WHERE id= '$id'";
         $result = mysqli_query($connection, $sql);
     if ($result){

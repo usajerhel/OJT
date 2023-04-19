@@ -28,6 +28,11 @@
                <input type="form-text" name="name" class="form-control" id="name" value="<?=$row['name']?>">
             </div>
             <input type = "text" name = "id" value = <?=$row['id']?>" hidden>
+            <div class="form-group text-white">
+               <label> Message </label>
+               <input type="" class="form-control" name="comment" id="comment" value="<?=$row['comment']?>">
+               <div id="email" class="form-text text-white"></div>
+            </div>
          </div>
          
          <button type="submit" name="update" class="btn btn-success my-1 py-1 px-1 fs-5 fw-bold" id="educ">Update</button>
